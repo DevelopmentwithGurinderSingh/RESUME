@@ -1,0 +1,59 @@
+/* Style the navbar */
+.navbar {
+  overflow: hidden;
+  background-color: blue;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.carousel-container {
+  overflow: hidden;
+  position: relative;
+  height: calc(100vh - 56px); 
+  margin-bottom: -49px; 
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  height: 90%;
+}
+
+.carousel-slide {
+  min-width: 100%;
+  flex-shrink: 0;
+  background-color: rgba(200, 200, 200, 0.7);
+  border-radius: 0 0 10px 10px; 
+}
+
+.carousel-heading {
+  text-align: center;
+  font-size: 24px;
+  padding: 20px;
+}
+
+.carousel-content {
+  padding: 20px;
+  text-align: center;
+}
+
+.navbar a.active {
+  background-color: #333;
+}
+
+.footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	margin-top: 0;
+	position: relative;
+}
